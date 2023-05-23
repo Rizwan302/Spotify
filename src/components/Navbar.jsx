@@ -3,6 +3,8 @@ import './Navbar.scss'
 import { AiFillHome } from 'react-icons/ai';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { BiLibrary } from 'react-icons/bi';
+import { MdAddBox } from 'react-icons/md';
+import { FcLike } from 'react-icons/fc';
 
 export default function Navbar() {
   return (
@@ -21,10 +23,9 @@ export default function Navbar() {
               <li><BiLibrary className='icons'/><a href=""> Your Library</a></li>
             </ul>
           </nav>
-          <div className="">
-            hello
-          {/* <li><AiFillHome className=''/> <a href=""> Create Playlist</a></li>
-          <li><AiFillHome className=''/> <a href=""> Liked Songs</a></li> */}
+          <div className="secIcon">
+          <li><MdAddBox className='icons'/> <a href=""> Create Playlist</a></li>
+          <li><FcLike className='icons'/> <a href=""> Liked Songs</a></li>
           </div>
         </div>
 

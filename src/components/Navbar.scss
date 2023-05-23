@@ -4,6 +4,7 @@
     flex: 0.8;
     background-color: #000000;
     height: 100vh;
+    box-sizing: border-box;
 
     .warpar {
         margin: 30px 30px;
@@ -107,6 +108,36 @@
 
                 }
             }
+        }
+
+        footer{
+            display: flex;
+            flex-wrap: wrap;
+            // background-color: aqua;
+            width: 280px;
+
+
+            p{
+                color: white;
+                font-size: 15px;
+                margin: 10px 8px;
+                cursor: pointer;
+            }
+        }
+
+        .globleButton{
+            margin-top: 20px;
+            font-size: 15px;
+            color: white;
+            background-color: #000000;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding: 12px ;
+            border: solid;
+            border-radius: 20px;
+            position: relative;
+
         }
     }
 }

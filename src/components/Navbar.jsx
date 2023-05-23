@@ -5,6 +5,7 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { BiLibrary } from 'react-icons/bi';
 import { MdAddBox } from 'react-icons/md';
 import { FcLike } from 'react-icons/fc';
+import { BiGlobe } from 'react-icons/bi';
 
 export default function Navbar() {
   return (
@@ -29,6 +30,16 @@ export default function Navbar() {
           </div>
         </div>
 
+        <footer>
+          <p>Legal</p>
+          <p>Privacy Center</p>
+          <p>Privacy Policy</p>
+          <p>Cookies</p>
+          <p>About Ads</p>
+          <p>Accessibility</p>
+          <p>Cookies</p>
+        </footer>
+        <button className='globleButton'><BiGlobe className='gloIcon'/> English</button>
       </div>
     </div>
   )

@@ -24,7 +24,7 @@ export default function Loginbar() {
             <a href="">Sign Up</a>
           </li>
           <li>
-            <a href="">Log in</a>
+            <a href="" className="loginButton">Log in</a>
           </li>
         </div>
       </div>

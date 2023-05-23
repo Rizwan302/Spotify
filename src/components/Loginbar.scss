@@ -1,8 +1,10 @@
 .loginFrom{
     width: 100%;
-    background-color: #1E1E1E;
+    background-color: black;
     height: 8vh;
     display: flex;
+    position: static;
+    opacity: 0.5;
 
     .warpper{
         width: 90%;
@@ -39,8 +41,17 @@
 
                 a{
                     text-decoration: none;
-                    color: white;
+                    color: #F6F6F6;
+                    font-size: 18px;
+                    font-weight: 500;
                 }
+            }
+
+            .loginButton{
+                background-color: #F6F6F6;
+                color: black;
+                padding: 10px 15px;
+                border-radius: 20px;
             }
             
         }

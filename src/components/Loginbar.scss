@@ -1,4 +1,48 @@
-.loginbar{
-    flex: 3;
-    background-color: brown;
+.loginFrom{
+    width: 100%;
+    background-color: #1E1E1E;
+    height: 8vh;
+    display: flex;
+
+    .warpper{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            li{
+                margin-top: 8px;
+                list-style: none;
+                margin-left: 5px;
+
+                a{
+                    font-size: 40px;
+                    color: white;
+                }
+            }
+            
+        }
+
+        .login{
+            display: flex;
+
+            li{
+                list-style: none;
+                margin-left: 20px;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            
+        }
+    }
 }

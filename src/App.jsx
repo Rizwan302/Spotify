@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.scss'
 import Navbar from './components/Navbar'
-import Loginbar from './components/Loginbar'
+import Loginbar from './components/Secendbar'
 
 function App() {
 

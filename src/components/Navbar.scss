@@ -2,5 +2,31 @@
     margin: 0;
     padding: 0;
     flex: 0.8;
-    background-color: aqua;
+    background-color: #000000;
+    height: 100vh;    
+
+    .warpar{
+        margin: 30px 30px;
+
+        .logobar{
+            display: flex;
+            position: relative;
+            align-items: center;
+
+            .logo{
+                width: 50px;
+                justify-content: center;
+                align-items: center;
+            }
+            .logotext{
+                color: white;
+                text-align: center;
+                font-size: 40px;
+                margin-left: 20px;
+                font-weight: bold;
+            }
+        }
+    }
 }
+
+

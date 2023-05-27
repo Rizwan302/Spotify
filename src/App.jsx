@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Loginbar from './components/Secendbar'
 
 function App() {
+  // const [mode, set]
 
   return (
       <div className='App'>

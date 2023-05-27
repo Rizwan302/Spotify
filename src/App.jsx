@@ -4,11 +4,23 @@ import Navbar from './components/Navbar'
 import Loginbar from './components/Secendbar'
 
 function App() {
-  // const [mode, set]
+  const [mode, setMode] = useState({
+    background: "#F5FFFA",
+    color: "#0F0F0F"
+  })
+  const modeData = {
+    background: "#F5FFFA",
+    color: "#0F0F0F"
+    
+  }
+  
+  const sendMode = () => {
+    sendMode(modeData)
+  }
 
   return (
-      <div className='App'>
-        <Navbar />
+      <div style={mode} className='App'>
+        <Navbar mode={mode} sendMode={sendMode}/>
         <Loginbar/>
       </div>
   )

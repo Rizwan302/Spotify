@@ -7,9 +7,9 @@ import { MdAddBox } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { BiGlobe } from "react-icons/bi";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <div className="navbar">
+    <div className="navbar" style={props.mode}>
       <div className="warpar">
         <div className="logobar">
           <img src="./public/logo.png" className="logo" alt="Spotify" />
@@ -20,7 +20,7 @@ export default function Navbar() {
           <nav>
             <ul>
               <li>
-                <AiFillHome className="icons" /> <a href=""> Home</a>
+                <AiFillHome className="icons" style={props.mode}/> <a href=""> Home</a>
               </li>
               <li>
                 <AiOutlineSearch className="icons" />

@@ -6,6 +6,7 @@ import { BiLibrary } from "react-icons/bi";
 import { MdAddBox } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { BiGlobe } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   // const [theme, setTheme] = useState({
@@ -39,24 +40,26 @@ export default function Navbar() {
           <nav>
             <ul>
               <li>
-                <AiFillHome className="icons" /> <a href=""> Home</a>
+                <NavLink to="/">
+                  <AiFillHome className="icons" /> Home
+                </NavLink>
               </li>
               <li>
                 <AiOutlineSearch className="icons" />
-                <a href=""> Search</a>
+                <NavLink to="/search"> Search</NavLink>
               </li>
               <li>
                 <BiLibrary className="icons" />
-                <a href=""> Your Library</a>
+                <NavLink to="/library"> Your Library</NavLink>
               </li>
             </ul>
           </nav>
           <div className="secIcon">
             <li>
-              <MdAddBox className="icons" /> <a href=""> Create Playlist</a>
+              <MdAddBox className="icons" /> <NavLink to="/playlist"> Create Playlist</NavLink>
             </li>
             <li>
-              <FcLike className="icons" /> <a href=""> Liked Songs</a>
+              <FcLike className="icons" /> <NavLink to="/liked"> Liked Songs</NavLink>
             </li>
           </div>
         </div>

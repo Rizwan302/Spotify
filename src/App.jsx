@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.scss";
 import Navbar from "./components/Navbar";
 import Loginbar from "./components/Secendbar";
+import Nav from "./components/Nav";
 
 function App() {
   const [theme, setTheme] = useState({
@@ -25,7 +26,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
+      <Nav/>
       <Loginbar />
     </div>
   );

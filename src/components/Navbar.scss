@@ -54,7 +54,7 @@
                             color: white;
                         }
 
-                        a {
+                        NavLink {
                             text-decoration: none;
                             color: #A7A7A7;
                             align-items: center;
@@ -67,6 +67,9 @@
                             &:hover {
                                 color: white;
                             }
+                        .active{
+                            color: red;
+                        }
 
                         }
                     }
@@ -139,4 +142,7 @@
             position: relative;
         }
     }
+}
+.active{
+    color: white;
 }

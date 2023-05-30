@@ -40,26 +40,26 @@ export default function Navbar() {
           <nav>
             <ul>
               <li>
-                <NavLink to="/">
-                  <AiFillHome className="icons" /> Home
+                <NavLink to="/" >
+                  <AiFillHome className="icons " /> Home
                 </NavLink>
               </li>
               <li>
-                <AiOutlineSearch className="icons" />
-                <NavLink to="/search"> Search</NavLink>
+                
+                <NavLink to="/search"> <AiOutlineSearch className="icons" /> Search</NavLink>
               </li>
               <li>
-                <BiLibrary className="icons" />
-                <NavLink to="/library"> Your Library</NavLink>
+                
+                <NavLink to="/library"><BiLibrary className="icons" /> Your Library</NavLink>
               </li>
             </ul>
           </nav>
           <div className="secIcon">
             <li>
-              <MdAddBox className="icons" /> <NavLink to="/playlist"> Create Playlist</NavLink>
+               <NavLink to="/playlist"><MdAddBox className="icons" /> Create Playlist</NavLink>
             </li>
             <li>
-              <FcLike className="icons" /> <NavLink to="/liked"> Liked Songs</NavLink>
+               <NavLink to="/liked"><FcLike className="icons" /> Liked Songs</NavLink>
             </li>
           </div>
         </div>

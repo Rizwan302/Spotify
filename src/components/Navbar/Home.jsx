@@ -8,8 +8,10 @@ export default function Home() {
     <div className="secend">
       <Loginbar className="login" />
       <div className="main">
-        <div className="title"></div>
-        <HomeCard />
+        <div className="title">
+          <h2>Foces</h2>
+          <HomeCard />
+        </div>
       </div>
     </div>
   );

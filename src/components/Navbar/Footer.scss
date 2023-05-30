@@ -1,0 +1,111 @@
+.footer{
+    flex: 3;
+    // background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 20px 20px;
+
+
+    // text-warper
+    .text-warper{
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+
+        .company{
+            
+            h4{
+                font-size: 20px;
+                // margin-right: 20px;
+                font-weight: 700;
+                color: white;
+            }
+
+            ul{
+
+                li{
+                    list-style: none;
+                    margin: 3px 0px;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 17px;
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+                
+            }
+        }
+
+
+        // communities
+        .communities{
+            h4{
+                font-size: 20px;
+                // margin-right: 20px;
+                font-weight: 700;
+                color: white;
+            }
+            ul{
+
+                li{
+                    list-style: none;
+                    margin: 3px 0px;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 17px;
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+                
+            }
+
+        }
+
+        
+        // useful
+        .useful{
+            h4{
+                font-size: 20px;
+                // margin-right: 20px;
+                font-weight: 700;
+                color: white;
+            }
+            ul{
+
+                li{
+                    list-style: none;
+                    margin: 3px 0px;
+
+                    a{
+                        text-decoration: none;
+                        font-size: 17px;
+                        font-weight: 500;
+                        color: white;
+                    }
+                }
+                
+            }
+
+        }
+    }
+
+    .icon-warper{
+        display: flex
+        
+       
+    }
+    .item{
+        margin: 0px 10px;
+        // font-size: 30px;
+
+        border-radius: 50%;
+        border-color: #272424;
+        background-color: #686464;
+        color: white;
+    }
+}

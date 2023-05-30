@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
 import { AiFillHome } from "react-icons/ai";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -7,9 +7,28 @@ import { MdAddBox } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { BiGlobe } from "react-icons/bi";
 
-export default function Navbar(props) {
+export default function Navbar() {
+  // const [theme, setTheme] = useState({
+  //   background: "#0F0F0F",
+  //   color: "white",
+  // });
+
+  // const UpdateMode = () => {
+  //   if (theme.color === "white") {
+  //     setTheme({
+  //       background: "#F5FFFA",
+  //       color: "#0F0F0F",
+  //     });
+  //   } else {
+  //     setTheme({
+  //       background: "#0F0F0F",
+  //       color: "white",
+  //     });
+  //   }
+  // };
+
   return (
-    <div className="navbar" style={props.mode}>
+    <div className="navbar">
       <div className="warpar">
         <div className="logobar">
           <img src="./public/logo.png" className="logo" alt="Spotify" />
@@ -20,7 +39,7 @@ export default function Navbar(props) {
           <nav>
             <ul>
               <li>
-                <AiFillHome className="icons" style={props.mode}/> <a href=""> Home</a>
+                <AiFillHome className="icons" /> <a href=""> Home</a>
               </li>
               <li>
                 <AiOutlineSearch className="icons" />

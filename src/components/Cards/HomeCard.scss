@@ -4,8 +4,9 @@
     background-color: brown;
     border-radius: 5px;
     margin: 10px 10px;
-
-
+    flex-wrap: wrap;
+    display: inline-flex;
+    
     .card-body {
         margin: auto;
         padding: 3px 3px;
@@ -25,7 +26,8 @@
                 font-size: 20px;
                 color: white;
             }
-            p{
+
+            p {
                 margin-top: 5px;
                 font-size: 15px;
             }

@@ -11,6 +11,11 @@ export default function Home() {
         <div className="title">
           <h2>Foces</h2>
           <HomeCard />
+          <HomeCard />
+          <HomeCard />
+          <HomeCard />
+          <HomeCard />
+          <HomeCard />
         </div>
       </div>
     </div>

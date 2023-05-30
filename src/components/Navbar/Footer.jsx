@@ -67,6 +67,7 @@ export default function Footer() {
 
       </div>
       <div className="icon-warper">
+        
             <BsInstagram  className="item"/>
             <BsTwitter className="item"/>
             <CiFacebook className="item"/>

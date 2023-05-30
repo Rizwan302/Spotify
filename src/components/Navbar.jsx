@@ -47,17 +47,20 @@ export default function Navbar() {
                   })}
                   className="NavLink"
                 >
-                  <AiFillHome className="icons " /> Home
+                  <AiFillHome className="icons" /> Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/search" className="NavLink">
-                  {" "}
+                <NavLink to="/search" style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                  })} className="NavLink">
                   <AiOutlineSearch className="icons" /> Search
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/library" className="NavLink">
+                <NavLink to="/library" style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                  })} className="NavLink">
                   <BiLibrary className="icons" /> Your Library
                 </NavLink>
               </li>
@@ -65,12 +68,16 @@ export default function Navbar() {
           </nav>
           <div className="secIcon">
             <li>
-              <NavLink to="/playlist" className="NavLink">
+              <NavLink to="/playlist" style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                  })} className="NavLink">
                 <MdAddBox className="icons" /> Create Playlist
               </NavLink>
             </li>
             <li>
-              <NavLink to="/liked" className="NavLink">
+              <NavLink to="/liked" style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                  })} className="NavLink">
                 <FcLike className="icons" /> Liked Songs
               </NavLink>
             </li>

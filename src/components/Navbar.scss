@@ -54,7 +54,7 @@
                             color: white;
                         }
 
-                        NavLink {
+                        .NavLink{
                             text-decoration: none;
                             color: #A7A7A7;
                             align-items: center;
@@ -67,7 +67,7 @@
                             &:hover {
                                 color: white;
                             }
-                        .active{
+                        NavLink> .active{
                             color: red;
                         }
 
@@ -94,7 +94,8 @@
                     color: white;
                 }
 
-                a {
+                a{
+                    list-style: none;
                     text-decoration: none;
                     color: #A7A7A7;
                     align-items: center;

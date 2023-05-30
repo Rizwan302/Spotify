@@ -6,7 +6,7 @@ import { BiLibrary } from "react-icons/bi";
 import { MdAddBox } from "react-icons/md";
 import { FcLike } from "react-icons/fc";
 import { BiGlobe } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {
   // const [theme, setTheme] = useState({
@@ -40,26 +40,39 @@ export default function Navbar() {
           <nav>
             <ul>
               <li>
-                <NavLink to="/" >
+                <NavLink
+                  to="/"
+                  style={({ isActive }) => ({
+                    color: isActive ? "#fff" : "#545e6f",
+                  })}
+                  className="NavLink"
+                >
                   <AiFillHome className="icons " /> Home
                 </NavLink>
               </li>
               <li>
-                
-                <NavLink to="/search"> <AiOutlineSearch className="icons" /> Search</NavLink>
+                <NavLink to="/search" className="NavLink">
+                  {" "}
+                  <AiOutlineSearch className="icons" /> Search
+                </NavLink>
               </li>
               <li>
-                
-                <NavLink to="/library"><BiLibrary className="icons" /> Your Library</NavLink>
+                <NavLink to="/library" className="NavLink">
+                  <BiLibrary className="icons" /> Your Library
+                </NavLink>
               </li>
             </ul>
           </nav>
           <div className="secIcon">
             <li>
-               <NavLink to="/playlist"><MdAddBox className="icons" /> Create Playlist</NavLink>
+              <NavLink to="/playlist" className="NavLink">
+                <MdAddBox className="icons" /> Create Playlist
+              </NavLink>
             </li>
             <li>
-               <NavLink to="/liked"><FcLike className="icons" /> Liked Songs</NavLink>
+              <NavLink to="/liked" className="NavLink">
+                <FcLike className="icons" /> Liked Songs
+              </NavLink>
             </li>
           </div>
         </div>

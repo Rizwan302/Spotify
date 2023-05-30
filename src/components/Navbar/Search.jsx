@@ -1,8 +1,11 @@
 import React from 'react'
+import './Search.scss'
+import Loginbar from '../Loginbar'
 
 export default function Search() {
   return (
-    <div>
+    <div className='secend'>
+      <Loginbar/>
       <h1>search</h1>
     </div>
   )

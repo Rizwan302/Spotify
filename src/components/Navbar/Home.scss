@@ -1,4 +1,11 @@
 .secend{
     flex: 3;
     background-color: #1D1D1D;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 1;
+
+    .login{
+        position: fixed;
+    }
 }

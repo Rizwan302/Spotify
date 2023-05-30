@@ -32,7 +32,9 @@ export default function Navbar() {
     <div className="navbar">
       <div className="warpar">
         <div className="logobar">
-          <img src="./public/logo.png" className="logo" alt="Spotify" />
+          <NavLink to="/">
+            <img src="./public/logo.png" className="logo" alt="Spotify" />
+          </NavLink>
           <span className="logotext">Spotify</span>
         </div>
 
@@ -51,16 +53,24 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/search" style={({ isActive }) => ({
+                <NavLink
+                  to="/search"
+                  style={({ isActive }) => ({
                     color: isActive ? "#fff" : "#545e6f",
-                  })} className="NavLink">
+                  })}
+                  className="NavLink"
+                >
                   <AiOutlineSearch className="icons" /> Search
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/library" style={({ isActive }) => ({
+                <NavLink
+                  to="/library"
+                  style={({ isActive }) => ({
                     color: isActive ? "#fff" : "#545e6f",
-                  })} className="NavLink">
+                  })}
+                  className="NavLink"
+                >
                   <BiLibrary className="icons" /> Your Library
                 </NavLink>
               </li>
@@ -68,16 +78,24 @@ export default function Navbar() {
           </nav>
           <div className="secIcon">
             <li>
-              <NavLink to="/playlist" style={({ isActive }) => ({
-                    color: isActive ? "#fff" : "#545e6f",
-                  })} className="NavLink">
+              <NavLink
+                to="/playlist"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                })}
+                className="NavLink"
+              >
                 <MdAddBox className="icons" /> Create Playlist
               </NavLink>
             </li>
             <li>
-              <NavLink to="/liked" style={({ isActive }) => ({
-                    color: isActive ? "#fff" : "#545e6f",
-                  })} className="NavLink">
+              <NavLink
+                to="/liked"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+                })}
+                className="NavLink"
+              >
                 <FcLike className="icons" /> Liked Songs
               </NavLink>
             </li>

@@ -117,16 +117,19 @@
 
     .icon-warper{
         display: flex
-        
-       
     }
-    .item{
-        margin: 0px 10px;
-        // font-size: 30px;
-
+    img{
+        // width: 10%;
+        height: 7vh;
+        margin: 0px 5px;
+        padding: 8px;
+        background-color: white;
         border-radius: 50%;
-        border-color: #272424;
-        background-color: #686464;
-        color: white;
+        
+        &:hover{
+            background-color: rgb(208, 194, 194);
+        }
     }
+    
+    
 }

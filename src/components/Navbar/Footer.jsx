@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.scss";
-import { BsInstagram } from 'react-icons/bs';
-import { BsTwitter } from 'react-icons/bs';
-import { CiFacebook } from 'react-icons/ci';
-import { Padding } from "@mui/icons-material";
+import twitter from '../Img/twitter.png'
+import facebook from '../Img/facebook.png'
+import instagram from '../Img/instagram.png'
+// facebook, instagram, 
 
 export default function Footer() {
   return (
@@ -67,10 +67,11 @@ export default function Footer() {
 
       </div>
       <div className="icon-warper">
-            <BsInstagram  className="item"/>
-            <BsTwitter className="item"/>
-            <CiFacebook className="item"/>
+            <img src={instagram} alt="Instagram" className="item" />
+            <img src={twitter} alt="Twitter" className="item" />
+            <img src={facebook} alt="Facebook" className="item" />
       </div>
+        
     </div>
   );
 }

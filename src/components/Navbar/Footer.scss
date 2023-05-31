@@ -32,7 +32,14 @@
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
-                        color: white;
+                        color: rgb(193, 189, 189);
+
+
+                        &:hover{
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 0.1s ease-in-out;
+                        }
                     }
                 }
                 
@@ -58,7 +65,14 @@
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
-                        color: white;
+                        color: rgb(193, 189, 189);
+
+
+                        &:hover{
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 0.1s ease-in-out;
+                        }
                     }
                 }
                 
@@ -85,8 +99,15 @@
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
-                        color: white;
+                        color: rgb(193, 189, 189);
+
+                        &:hover{
+                            color: white;
+                            text-decoration: underline;
+                            transition: all 0.1s ease-in-out;
+                        }
                     }
+                   
                 }
                 
             }

@@ -3,6 +3,7 @@ import Loginbar from "../Loginbar";
 import "./Home.scss";
 import HomeCard from "../Cards/HomeCard";
 import Footer from "./Footer";
+import HrSpotify from "./HrSpotify";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </div>
 
       <Footer/>
+      <HrSpotify/>
     </div>
   );
 }

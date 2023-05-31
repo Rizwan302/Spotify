@@ -1,135 +1,140 @@
-.footer{
+.footer {
     flex: 3;
     // background-color: aqua;
     display: flex;
     justify-content: space-between;
-    margin: 10px auto;
+    margin: 40px auto;
+    // width: 95%;
     padding: 20px 20px;
 
 
     // text-warper
-    .text-warper{
-        width: 70%;
+    .text-warper {
+        width: 60%;
+        margin-left: 15px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        // background-color: aqua;
 
-        .company{
-            
-            h4{
+        .company {
+
+            h4 {
                 font-size: 20px;
                 // margin-right: 20px;
                 font-weight: 700;
                 color: white;
             }
 
-            ul{
+            ul {
 
-                li{
+                li {
                     list-style: none;
                     margin: 3px 0px;
 
-                    a{
+                    a {
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
                         color: rgb(193, 189, 189);
 
 
-                        &:hover{
+                        &:hover {
                             color: white;
                             text-decoration: underline;
                             transition: all 0.1s ease-in-out;
                         }
                     }
                 }
-                
+
             }
         }
 
 
         // communities
-        .communities{
-            h4{
+        .communities {
+            h4 {
                 font-size: 20px;
                 // margin-right: 20px;
                 font-weight: 700;
                 color: white;
             }
-            ul{
 
-                li{
+            ul {
+
+                li {
                     list-style: none;
                     margin: 3px 0px;
 
-                    a{
+                    a {
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
                         color: rgb(193, 189, 189);
 
 
-                        &:hover{
+                        &:hover {
                             color: white;
                             text-decoration: underline;
                             transition: all 0.1s ease-in-out;
                         }
                     }
                 }
-                
+
             }
 
         }
 
-        
+
         // useful
-        .useful{
-            h4{
+        .useful {
+            h4 {
                 font-size: 20px;
                 // margin-right: 20px;
                 font-weight: 700;
                 color: white;
             }
-            ul{
 
-                li{
+            ul {
+
+                li {
                     list-style: none;
                     margin: 3px 0px;
 
-                    a{
+                    a {
                         text-decoration: none;
                         font-size: 17px;
                         font-weight: 500;
                         color: rgb(193, 189, 189);
 
-                        &:hover{
+                        &:hover {
                             color: white;
                             text-decoration: underline;
                             transition: all 0.1s ease-in-out;
                         }
                     }
-                   
+
                 }
-                
+
             }
 
         }
     }
 
-    .icon-warper{
-        display: flex
+    .icon-warper {
+        display: flex;
+        margin-right:15px;
     }
-    img{
+
+    img {
         // width: 10%;
         height: 7vh;
         margin: 0px 5px;
         padding: 8px;
         background-color: white;
         border-radius: 50%;
-        
-        &:hover{
+
+        &:hover {
             background-color: rgb(208, 194, 194);
         }
     }
-    
-    
 }

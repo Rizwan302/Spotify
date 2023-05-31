@@ -3,7 +3,6 @@ import "./Footer.scss";
 import twitter from '../Img/twitter.png'
 import facebook from '../Img/facebook.png'
 import instagram from '../Img/instagram.png'
-// facebook, instagram, 
 
 export default function Footer() {
   return (
@@ -71,7 +70,6 @@ export default function Footer() {
             <img src={twitter} alt="Twitter" className="item" />
             <img src={facebook} alt="Facebook" className="item" />
       </div>
-        
     </div>
   );
 }

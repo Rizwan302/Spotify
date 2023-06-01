@@ -17,7 +17,6 @@ export default function HomeCard({ title }) {
       console.log('pause')
     }
   }
-
   return (
     <div className="cards">
       <div className="card-body" onClick={buttonset}>
